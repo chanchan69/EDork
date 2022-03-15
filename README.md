@@ -3,8 +3,8 @@ The .edork file format is a secure way to distribute dorks. Only someone in poss
 
 # How do you use dorks in the .edork format?
 The following tools support the EDork format:
-  Mango Keywords
-  Cork Dork
+1. Mango Keywords
+2. Cork Dork
   
 # Why should you use .edork?
 Many people purchase dorks, skid the formats, and never buy dorks from you again. EDork prevents this because your customer can never view the dorks.
