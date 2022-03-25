@@ -13,4 +13,8 @@ Many people purchase dorks, skid the formats, and never buy dorks from you again
 The only people in possession of the EDork private key are the developers of tools which support EDork. Currently that is only SirChanChan.
 
 # How do I encrypt my dorks to a .edork file?
-Use the edork_client.py script located in this repository.
+Use the edork_client.py script located in this repository or use the compiled client which can be found in the releases category. 
+
+Compiled client usage (in command line)
+```edork.exe "path/to/your/file/dorks.txt"```
+
