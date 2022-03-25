@@ -1,0 +1,21 @@
+cargo-features = ["strip"]
+
+[package]
+name = "edork"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rsa = "*"
+aes="0.7.5"
+block-modes = "0.8.1"
+rand = "*"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
